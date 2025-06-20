@@ -1,0 +1,83 @@
+
+hec.png
+size: 728,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ad
+  rotate: true
+  xy: 635, 254
+  size: 92, 86
+  orig: 100, 100
+  offset: 5, 6
+  index: -1
+ad2
+  rotate: true
+  xy: 631, 11
+  size: 98, 95
+  orig: 100, 100
+  offset: 1, 3
+  index: -1
+g
+  rotate: false
+  xy: 372, 84
+  size: 119, 119
+  orig: 126, 126
+  offset: 4, 4
+  index: -1
+g1
+  rotate: false
+  xy: 493, 84
+  size: 119, 119
+  orig: 126, 126
+  offset: 4, 4
+  index: -1
+g2
+  rotate: true
+  xy: 515, 227
+  size: 119, 118
+  orig: 126, 126
+  offset: 4, 4
+  index: -1
+gq2
+  rotate: true
+  xy: 2, 3
+  size: 343, 368
+  orig: 343, 368
+  offset: 0, 0
+  index: -1
+gs
+  rotate: true
+  xy: 372, 22
+  size: 60, 168
+  orig: 88, 228
+  offset: 14, 15
+  index: -1
+ks
+  rotate: false
+  xy: 372, 205
+  size: 141, 141
+  orig: 155, 155
+  offset: 7, 7
+  index: -1
+light_dian
+  rotate: true
+  xy: 372, 2
+  size: 18, 17
+  orig: 20, 19
+  offset: 1, 2
+  index: -1
+star3b
+  rotate: true
+  xy: 614, 111
+  size: 114, 110
+  orig: 124, 129
+  offset: 6, 11
+  index: -1
+star_light
+  rotate: false
+  xy: 542, 3
+  size: 87, 79
+  orig: 100, 100
+  offset: 8, 9
+  index: -1

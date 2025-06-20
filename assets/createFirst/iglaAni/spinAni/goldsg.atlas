@@ -1,0 +1,20 @@
+
+goldsg.png
+size: 252,81
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold
+  rotate: false
+  xy: 171, 2
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+sg
+  rotate: true
+  xy: 2, 37
+  size: 42, 167
+  orig: 42, 167
+  offset: 0, 0
+  index: -1

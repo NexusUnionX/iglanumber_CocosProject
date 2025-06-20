@@ -1,0 +1,139 @@
+
+draw.png
+size: 2004,878
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banner
+  rotate: false
+  xy: 880, 9
+  size: 648, 186
+  orig: 648, 186
+  offset: 0, 0
+  index: -1
+coin_fly_1
+  rotate: false
+  xy: 1871, 365
+  size: 50, 31
+  orig: 50, 31
+  offset: 0, 0
+  index: -1
+coin_fly_2
+  rotate: true
+  xy: 1941, 509
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+coin_fly_3
+  rotate: false
+  xy: 1941, 561
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+coin_fly_4
+  rotate: false
+  xy: 1819, 363
+  size: 50, 33
+  orig: 50, 33
+  offset: 0, 0
+  index: -1
+coin_fly_5
+  rotate: true
+  xy: 1941, 457
+  size: 50, 39
+  orig: 50, 39
+  offset: 0, 0
+  index: -1
+coin_fly_6
+  rotate: true
+  xy: 1941, 405
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+congrats
+  rotate: false
+  xy: 1561, 142
+  size: 359, 81
+  orig: 359, 81
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 1715, 13
+  size: 165, 127
+  orig: 165, 127
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 1561, 225
+  size: 211, 136
+  orig: 211, 136
+  offset: 0, 0
+  index: -1
+g3
+  rotate: true
+  xy: 1882, 15
+  size: 125, 120
+  orig: 125, 120
+  offset: 0, 0
+  index: -1
+g4
+  rotate: false
+  xy: 1530, 17
+  size: 183, 123
+  orig: 183, 123
+  offset: 0, 0
+  index: -1
+g5
+  rotate: true
+  xy: 1774, 231
+  size: 130, 117
+  orig: 130, 117
+  offset: 0, 0
+  index: -1
+g6
+  rotate: true
+  xy: 1819, 398
+  size: 206, 120
+  orig: 206, 120
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: true
+  xy: 1699, 363
+  size: 513, 118
+  orig: 513, 118
+  offset: 0, 0
+  index: -1
+ice
+  rotate: true
+  xy: 1561, 363
+  size: 513, 136
+  orig: 513, 136
+  offset: 0, 0
+  index: -1
+quan
+  rotate: false
+  xy: 880, 197
+  size: 679, 679
+  orig: 679, 679
+  offset: 0, 0
+  index: -1
+yuank
+  rotate: true
+  xy: 1819, 606
+  size: 270, 180
+  orig: 270, 180
+  offset: 0, 0
+  index: -1
+zhuanguang
+  rotate: false
+  xy: 2, 2
+  size: 876, 874
+  orig: 876, 874
+  offset: 0, 0
+  index: -1

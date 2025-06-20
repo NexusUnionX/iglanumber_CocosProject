@@ -1,0 +1,69 @@
+
+story.png
+size: 804,1300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tap anywhere to continue...
+  rotate: false
+  xy: 366, 27
+  size: 372, 27
+  orig: 372, 27
+  offset: 0, 0
+  index: -1
+bg_story_2
+  rotate: true
+  xy: 662, 274
+  size: 1024, 140
+  orig: 1024, 140
+  offset: 0, 0
+  index: -1
+bgcl
+  rotate: false
+  xy: 312, 2
+  size: 52, 52
+  orig: 80, 80
+  offset: 14, 14
+  index: -1
+pic1
+  rotate: false
+  xy: 2, 932
+  size: 658, 366
+  orig: 658, 366
+  offset: 0, 0
+  index: -1
+pic2
+  rotate: false
+  xy: 2, 593
+  size: 658, 337
+  orig: 658, 337
+  offset: 0, 0
+  index: -1
+pic3
+  rotate: true
+  xy: 2, 9
+  size: 338, 308
+  orig: 338, 308
+  offset: 0, 0
+  index: -1
+pic4
+  rotate: false
+  xy: 312, 56
+  size: 308, 291
+  orig: 308, 291
+  offset: 0, 0
+  index: -1
+pic5
+  rotate: false
+  xy: 2, 349
+  size: 658, 242
+  orig: 658, 242
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 622, 73
+  size: 199, 163
+  orig: 199, 164
+  offset: 0, 1
+  index: -1

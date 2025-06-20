@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fingerGUide",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            104.459,
+            10.319,
+            0
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            238.595,
+            10.319,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

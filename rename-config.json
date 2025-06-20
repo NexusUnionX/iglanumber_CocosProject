@@ -1,0 +1,1696 @@
+{
+  "projectRoot": "D:/CocosProject/iglanumber",
+  "defaultSearchPaths": [
+    "assets"
+  ],
+  "fileRenameOperations": [
+    {
+      "oldFileName": "CatCell",
+      "filePath": "assets/total/scripts/CatCell.ts",
+      "newFileName": "FelineUnit",
+      "renames": [
+        {
+          "oldName": "lab",
+          "newName": "captionDisplay"
+        },
+        {
+          "oldName": "textureImg",
+          "newName": "visualSprite"
+        },
+        {
+          "oldName": "select",
+          "newName": "selectionIndicator"
+        },
+        {
+          "oldName": "levelBg",
+          "newName": "tierBackdrop"
+        },
+        {
+          "oldName": "posXY",
+          "newName": "gridCoordinates"
+        },
+        {
+          "oldName": "catType",
+          "newName": "felineVariant"
+        },
+        {
+          "oldName": "pathForCell",
+          "newName": "movementTrack"
+        },
+        {
+          "oldName": "running",
+          "newName": "isAnimating"
+        },
+        {
+          "oldName": "inUpTween",
+          "newName": "ascendAnimation"
+        },
+        {
+          "oldName": "inHarmTween",
+          "newName": "damageAnimation"
+        },
+        {
+          "oldName": "firstDo",
+          "newName": "isInitialRun"
+        },
+        {
+          "oldName": "flashType",
+          "newName": "sparkleType"
+        },
+        {
+          "oldName": "setMsgPosXY",
+          "newName": "updateCoordinates"
+        },
+        {
+          "oldName": "flashDOImgTexture",
+          "newName": "sparkleVisual"
+        },
+        {
+          "oldName": "startBtn",
+          "newName": "initiateButton"
+        },
+        {
+          "oldName": "endBtn",
+          "newName": "terminateButton"
+        },
+        {
+          "oldName": "cancelBtn",
+          "newName": "abortButton"
+        },
+        {
+          "oldName": "GoTweenMove",
+          "newName": "executeTravelAnim"
+        },
+        {
+          "oldName": "go",
+          "newName": "commenceAction"
+        },
+        {
+          "oldName": "showLvLogo",
+          "newName": "displayTierIcon"
+        },
+        {
+          "oldName": "showHarmLogo",
+          "newName": "displayHitIcon"
+        },
+        {
+          "oldName": "breathTween",
+          "newName": "pulseEffect"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatCtrl",
+      "filePath": "assets/total/scripts/CatCtrl.ts",
+      "newFileName": "ConveyorController",
+      "renames": [
+        {
+          "oldName": "base",
+          "newName": "mainAnchor"
+        },
+        {
+          "oldName": "dai",
+          "newName": "conveyorStrap"
+        },
+        {
+          "oldName": "list",
+          "newName": "elementQueue"
+        },
+        {
+          "oldName": "cat",
+          "newName": "felineSprite"
+        },
+        {
+          "oldName": "posList",
+          "newName": "positionQueue"
+        },
+        {
+          "oldName": "isRun",
+          "newName": "isMovingState"
+        },
+        {
+          "oldName": "speedDai",
+          "newName": "conveyorRate"
+        },
+        {
+          "oldName": "boxTotalMoveLength",
+          "newName": "totalTravelDistance"
+        },
+        {
+          "oldName": "boxTotalMoveTime",
+          "newName": "totalTravelDuration"
+        },
+        {
+          "oldName": "initBox",
+          "newName": "initializeContainer"
+        },
+        {
+          "oldName": "flashBox",
+          "newName": "refreshHolder"
+        },
+        {
+          "oldName": "add",
+          "newName": "enqueueElement"
+        },
+        {
+          "oldName": "runBox",
+          "newName": "commenceMovement"
+        },
+        {
+          "oldName": "catSpinCommon",
+          "newName": "standardFelineSpin"
+        },
+        {
+          "oldName": "catSpinOpen",
+          "newName": "openingFelineSpin"
+        },
+        {
+          "oldName": "isin",
+          "newName": "isContained"
+        },
+        {
+          "oldName": "runDai",
+          "newName": "activateConveyor"
+        },
+        {
+          "oldName": "stopDai",
+          "newName": "haltConveyor"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatFixCanvas",
+      "filePath": "assets/total/scripts/CatFixCanvas.ts",
+      "newFileName": "CanvasAdapter",
+      "renames": [
+        {
+          "oldName": "canvasNode",
+          "newName": "gameCanvas"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatFrameSDK",
+      "filePath": "assets/total/scripts/CatFrameSDK.ts",
+      "newFileName": "FrameworkBridge",
+      "renames": [
+        {
+          "oldName": "catLoad",
+          "newName": "sdkLoadStatus"
+        },
+        {
+          "oldName": "videoIsHide",
+          "newName": "isVideoConcealed"
+        },
+        {
+          "oldName": "loadEvent",
+          "newName": "triggerLoadEvent"
+        },
+        {
+          "oldName": "videoEventSend",
+          "newName": "emitVideoEvent"
+        },
+        {
+          "oldName": "CatInit",
+          "newName": "setupSdk"
+        },
+        {
+          "oldName": "videoCB",
+          "newName": "videoAdHandler"
+        },
+        {
+          "oldName": "InterCB",
+          "newName": "interstitialHandler"
+        },
+        {
+          "oldName": "bannerCB",
+          "newName": "bannerAdHandler"
+        },
+        {
+          "oldName": "InterIsLoad",
+          "newName": "isInterstitialCached"
+        },
+        {
+          "oldName": "showInter",
+          "newName": "presentInterstitial"
+        },
+        {
+          "oldName": "videoFinish",
+          "newName": "handleVideoCompletion"
+        },
+        {
+          "oldName": "showVideo",
+          "newName": "presentVideoAd"
+        },
+        {
+          "oldName": "showBanner",
+          "newName": "revealBannerAd"
+        },
+        {
+          "oldName": "hideBanner",
+          "newName": "concealBannerAd"
+        },
+        {
+          "oldName": "bannerClick",
+          "newName": "triggerBannerClick"
+        },
+        {
+          "oldName": "ssf",
+          "newName": "sdkSignalForward"
+        },
+        {
+          "oldName": "commonEvent",
+          "newName": "trackGenericAction"
+        },
+        {
+          "oldName": "powerEvent",
+          "newName": "trackPowerAction"
+        },
+        {
+          "oldName": "catListen",
+          "newName": "addSdkObserver"
+        },
+        {
+          "oldName": "videoCBRun",
+          "newName": "invokeVideoCallback"
+        },
+        {
+          "oldName": "interCBRun",
+          "newName": "invokeInterstitialCallback"
+        },
+        {
+          "oldName": "bannerCBRun",
+          "newName": "invokeBannerCallback"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatLogin",
+      "filePath": "assets/total/scripts/CatLogin.ts",
+      "newFileName": "SessionManager",
+      "renames": [
+        {
+          "oldName": "isloadSub",
+          "newName": "isSubmoduleLoaded"
+        },
+        {
+          "oldName": "GameLoad",
+          "newName": "isGameContentReady"
+        },
+        {
+          "oldName": "isEnd",
+          "newName": "hasFinished"
+        },
+        {
+          "oldName": "msgGame",
+          "newName": "gameSystemMessage"
+        },
+        {
+          "oldName": "startCall",
+          "newName": "onStartCallback"
+        },
+        {
+          "oldName": "endCall",
+          "newName": "onEndCallback"
+        },
+        {
+          "oldName": "timeObj",
+          "newName": "scheduleTracker"
+        },
+        {
+          "oldName": "_instance",
+          "newName": "_sharedInstance"
+        },
+        {
+          "oldName": "logTime",
+          "newName": "recordTimingEvent"
+        },
+        {
+          "oldName": "init",
+          "newName": "initializeManager"
+        },
+        {
+          "oldName": "onFreshUser",
+          "newName": "handleNewUser"
+        },
+        {
+          "oldName": "createCoc",
+          "newName": "spawnEngineObject"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatModel",
+      "filePath": "assets/total/scripts/CatModel.ts",
+      "newFileName": "GameModel",
+      "renames": [
+        {
+          "oldName": "CatMessage",
+          "newName": "dispatchModelEvent"
+        },
+        {
+          "oldName": "goldAdd",
+          "newName": "increaseGold"
+        },
+        {
+          "oldName": "returnXYPos",
+          "newName": "fetchCoordinates"
+        },
+        {
+          "oldName": "firstDo",
+          "newName": "isInitialAction"
+        },
+        {
+          "oldName": "catchNotSameNum",
+          "newName": "getDifferentNumber"
+        },
+        {
+          "oldName": "catchPosMsg",
+          "newName": "retrievePositionInfo"
+        },
+        {
+          "oldName": "randomInt",
+          "newName": "generateRandomInt"
+        },
+        {
+          "oldName": "haveCanCombine",
+          "newName": "hasPossibleMerge"
+        },
+        {
+          "oldName": "createList",
+          "newName": "generateArray"
+        },
+        {
+          "oldName": "createCatCell",
+          "newName": "spawnCatUnit"
+        },
+        {
+          "oldName": "resetGameMsg",
+          "newName": "resetGameplayState"
+        },
+        {
+          "oldName": "useVideo",
+          "newName": "applyVideoBonus"
+        },
+        {
+          "oldName": "showInter",
+          "newName": "triggerInterstitialAd"
+        },
+        {
+          "oldName": "showVideo",
+          "newName": "triggerVideoAd"
+        },
+        {
+          "oldName": "showBanner",
+          "newName": "triggerBannerAd"
+        },
+        {
+          "oldName": "linkOBj",
+          "newName": "linkedObject"
+        },
+        {
+          "oldName": "ispad",
+          "newName": "isTabletLayout"
+        },
+        {
+          "oldName": "shake",
+          "newName": "initiateShake"
+        },
+        {
+          "oldName": "showLink",
+          "newName": "presentWebLink"
+        },
+        {
+          "oldName": "Pos",
+          "newName": "GridPosition"
+        },
+        {
+          "oldName": "commonEvent",
+          "newName": "dispatchGenericEvent"
+        },
+        {
+          "oldName": "createCCC",
+          "newName": "spawnCoreComponent"
+        },
+        {
+          "oldName": "logShow",
+          "newName": "recordDisplayEvent"
+        },
+        {
+          "oldName": "getCatVersion",
+          "newName": "retrieveAppVersion"
+        },
+        {
+          "oldName": "getCatInvite",
+          "newName": "retrieveInviteCode"
+        },
+        {
+          "oldName": "GetCatLogin",
+          "newName": "performLogin"
+        },
+        {
+          "oldName": "runVideo",
+          "newName": "executeVideoAd"
+        },
+        {
+          "oldName": "hideBanner",
+          "newName": "dismissBannerAd"
+        },
+        {
+          "oldName": "bannerClick",
+          "newName": "onBannerInteraction"
+        },
+        {
+          "oldName": "powerSend",
+          "newName": "emitPowerData"
+        },
+        {
+          "oldName": "lifeP",
+          "newName": "vitalityPoints"
+        },
+        {
+          "oldName": "VersionCfg",
+          "newName": "versionSettings"
+        },
+        {
+          "oldName": "VersionClickWithType",
+          "newName": "logVersionClick"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatUiCtrl",
+      "filePath": "assets/total/scripts/CatUiCtrl.ts",
+      "newFileName": "UIController",
+      "renames": [
+        {
+          "oldName": "base",
+          "newName": "uiRootNode"
+        },
+        {
+          "oldName": "scroleLabel",
+          "newName": "marqueeLabel"
+        },
+        {
+          "oldName": "texture",
+          "newName": "displayTexture"
+        },
+        {
+          "oldName": "clickLvUp",
+          "newName": "handleLevelUpClick"
+        },
+        {
+          "oldName": "clickHarm",
+          "newName": "handleDamageClick"
+        },
+        {
+          "oldName": "clickFlash",
+          "newName": "handleToolClick"
+        },
+        {
+          "oldName": "setView",
+          "newName": "optionsPanel"
+        },
+        {
+          "oldName": "skinView",
+          "newName": "cosmeticsPanel"
+        },
+        {
+          "oldName": "RewardView",
+          "newName": "prizesPanel"
+        },
+        {
+          "oldName": "goldEff",
+          "newName": "coinFx"
+        },
+        {
+          "oldName": "effCombine",
+          "newName": "mergeFx"
+        },
+        {
+          "oldName": "bgImg",
+          "newName": "backdropImage"
+        },
+        {
+          "oldName": "bgList",
+          "newName": "backdropLibrary"
+        },
+        {
+          "oldName": "showScore",
+          "newName": "renderScoreValue"
+        },
+        {
+          "oldName": "setBGImg",
+          "newName": "updateBackdrop"
+        },
+        {
+          "oldName": "flashToolCount",
+          "newName": "toolQuantity"
+        },
+        {
+          "oldName": "flashTexture",
+          "newName": "toolSprite"
+        },
+        {
+          "oldName": "ShakeAndMany",
+          "newName": "ultimateEffect"
+        },
+        {
+          "oldName": "upScore",
+          "newName": "increaseScore"
+        },
+        {
+          "oldName": "runReStart",
+          "newName": "executeRestart"
+        },
+        {
+          "oldName": "readyNode",
+          "newName": "prepareIndicator"
+        },
+        {
+          "oldName": "goNode",
+          "newName": "startIndicator"
+        },
+        {
+          "oldName": "restartRoot",
+          "newName": "replayPanel"
+        },
+        {
+          "oldName": "readyStart",
+          "newName": "initiateReadySequence"
+        },
+        {
+          "oldName": "readyGoTween",
+          "newName": "startSequenceAnim"
+        },
+        {
+          "oldName": "showSetView",
+          "newName": "revealOptionsPanel"
+        },
+        {
+          "oldName": "showSkinView",
+          "newName": "revealCosmeticsPanel"
+        },
+        {
+          "oldName": "showReward",
+          "newName": "revealPrizesPanel"
+        },
+        {
+          "oldName": "showUnlock",
+          "newName": "revealUnlockPopup"
+        },
+        {
+          "oldName": "showGoldEff",
+          "newName": "triggerCoinFx"
+        },
+        {
+          "oldName": "effCombineDO",
+          "newName": "triggerMergeFx"
+        }
+      ]
+    },
+    {
+      "oldFileName": "PosMsg",
+      "filePath": "assets/total/scripts/CatViewCtrl.ts",
+      "newFileName": "GameViewController",
+      "renames": [
+        {
+          "oldName": "BaseRow",
+          "newName": "rowCount"
+        },
+        {
+          "oldName": "BaseCol",
+          "newName": "columnCount"
+        },
+        {
+          "oldName": "BaseSize",
+          "newName": "cellSize"
+        },
+        {
+          "oldName": "BaseDeltaWidth",
+          "newName": "cellSpacing"
+        },
+        {
+          "oldName": "BasePadding",
+          "newName": "gridPadding"
+        },
+        {
+          "oldName": "CellIsMove",
+          "newName": "areCellsAnimating"
+        },
+        {
+          "oldName": "InLevel",
+          "newName": "isLevelingUp"
+        },
+        {
+          "oldName": "InHarm",
+          "newName": "isDamaging"
+        },
+        {
+          "oldName": "CellMoveCount",
+          "newName": "animatingCellCount"
+        },
+        {
+          "oldName": "up",
+          "newName": "dirUp"
+        },
+        {
+          "oldName": "down",
+          "newName": "dirDown"
+        },
+        {
+          "oldName": "left",
+          "newName": "dirLeft"
+        },
+        {
+          "oldName": "right",
+          "newName": "dirRight"
+        },
+        {
+          "oldName": "weightCombo",
+          "newName": "comboMultiplier"
+        },
+        {
+          "oldName": "rewardFirst",
+          "newName": "primaryReward"
+        },
+        {
+          "oldName": "rewardSecond",
+          "newName": "secondaryReward"
+        },
+        {
+          "oldName": "comboOneGold",
+          "newName": "baseComboBonus"
+        },
+        {
+          "oldName": "maxGoldCombo",
+          "newName": "maxComboBonus"
+        },
+        {
+          "oldName": "cellPosList",
+          "newName": "cellLocationGrid"
+        },
+        {
+          "oldName": "base",
+          "newName": "viewRoot"
+        },
+        {
+          "oldName": "CatCell",
+          "newName": "catUnitPrefab"
+        },
+        {
+          "oldName": "unlockView",
+          "newName": "unlockPopup"
+        },
+        {
+          "oldName": "propView",
+          "newName": "toolPanel"
+        },
+        {
+          "oldName": "NodeOfGold",
+          "newName": "goldTargetNode"
+        },
+        {
+          "oldName": "upEff",
+          "newName": "levelUpFx"
+        },
+        {
+          "oldName": "catCellRoot",
+          "newName": "gameGridRoot"
+        },
+        {
+          "oldName": "block",
+          "newName": "inputBlocker"
+        },
+        {
+          "oldName": "EffectComRoot",
+          "newName": "comboFxRoot"
+        },
+        {
+          "oldName": "EffectRoot",
+          "newName": "generalFxRoot"
+        },
+        {
+          "oldName": "root_Guide",
+          "newName": "tutorialRoot"
+        },
+        {
+          "oldName": "guideFingerShow",
+          "newName": "displayTutorialPointer"
+        },
+        {
+          "oldName": "harmShow",
+          "newName": "displayDamageSelector"
+        },
+        {
+          "oldName": "targetIcon",
+          "newName": "objectiveSprite"
+        },
+        {
+          "oldName": "iconTextureList",
+          "newName": "spriteTextureArray"
+        },
+        {
+          "oldName": "iconTextureFrameList",
+          "newName": "spriteFrameArray"
+        },
+        {
+          "oldName": "catNumArray",
+          "newName": "gridData"
+        },
+        {
+          "oldName": "catCellArray",
+          "newName": "cellNodeGrid"
+        },
+        {
+          "oldName": "clickPosStart",
+          "newName": "touchStartLocation"
+        },
+        {
+          "oldName": "nowComboCount",
+          "newName": "currentComboChain"
+        },
+        {
+          "oldName": "nextComboCount",
+          "newName": "nextComboChain"
+        },
+        {
+          "oldName": "deltaTimeBreath",
+          "newName": "idleAnimTimer"
+        },
+        {
+          "oldName": "curBreath",
+          "newName": "currentPulseState"
+        },
+        {
+          "oldName": "RunGameStart",
+          "newName": "initializeGameplay"
+        },
+        {
+          "oldName": "reBuildGameDO",
+          "newName": "regenerateGrid"
+        },
+        {
+          "oldName": "createList",
+          "newName": "generateInitialGrid"
+        },
+        {
+          "oldName": "createCatCellList",
+          "newName": "populateCellNodes"
+        },
+        {
+          "oldName": "random12",
+          "newName": "getRandomType"
+        },
+        {
+          "oldName": "randomComboCount",
+          "newName": "generateRandomChain"
+        },
+        {
+          "oldName": "buildCatCell",
+          "newName": "spawnCellAt"
+        },
+        {
+          "oldName": "goOnBuildStart",
+          "newName": "continueGridPopulation"
+        },
+        {
+          "oldName": "catCellBtnBegin",
+          "newName": "onCellTouchStart"
+        },
+        {
+          "oldName": "UpLevelBtnStart",
+          "newName": "onLevelUpButton"
+        },
+        {
+          "oldName": "HarmBtnStart",
+          "newName": "onDamageButton"
+        },
+        {
+          "oldName": "catCellBtnEnd",
+          "newName": "onCellTouchEnd"
+        },
+        {
+          "oldName": "carCellBtnCancel",
+          "newName": "onCellTouchCancel"
+        },
+        {
+          "oldName": "changeCell",
+          "newName": "swapCells"
+        },
+        {
+          "oldName": "getCellDir",
+          "newName": "getSwapDirection"
+        },
+        {
+          "oldName": "positionDir",
+          "newName": "determineDirection"
+        },
+        {
+          "oldName": "tryChange",
+          "newName": "attemptSwap"
+        },
+        {
+          "oldName": "tryChangeGo",
+          "newName": "executeSwap"
+        },
+        {
+          "oldName": "tryChangeGo2",
+          "newName": "revertSwap"
+        },
+        {
+          "oldName": "mainArroundInArray",
+          "newName": "checkNeighborsForMatch"
+        },
+        {
+          "oldName": "findCatCellComponent",
+          "newName": "getCatUnitComponent"
+        },
+        {
+          "oldName": "findCatCellType",
+          "newName": "getCatUnitType"
+        },
+        {
+          "oldName": "changeCatCellType",
+          "newName": "setCatUnitType"
+        },
+        {
+          "oldName": "changeCatCellComponent",
+          "newName": "updateCatUnitVisuals"
+        },
+        {
+          "oldName": "posMsgTarget",
+          "newName": "targetLocationData"
+        },
+        {
+          "oldName": "catCellCombine",
+          "newName": "processMatches"
+        },
+        {
+          "oldName": "effShowGold",
+          "newName": "displayCoinFx"
+        },
+        {
+          "oldName": "changeSetCell",
+          "newName": "updateMatchedCellsData"
+        },
+        {
+          "oldName": "moveTweenEndDo",
+          "newName": "onFallAnimationComplete"
+        },
+        {
+          "oldName": "catCellGoDown",
+          "newName": "dropCells"
+        },
+        {
+          "oldName": "fillCatCell",
+          "newName": "populateEmptyCells"
+        },
+        {
+          "oldName": "fillCatCellAfter",
+          "newName": "postPopulationCheck"
+        },
+        {
+          "oldName": "findWhichCanBuild",
+          "newName": "findCreationPoints"
+        },
+        {
+          "oldName": "findTotalCanCombEnd",
+          "newName": "checkForPossibleMoves"
+        },
+        {
+          "oldName": "TweenComboShow",
+          "newName": "animateComboDisplay"
+        },
+        {
+          "oldName": "findTotalCanCombEndAfter",
+          "newName": "handleNoMoves"
+        },
+        {
+          "oldName": "lvUpTotalLittleCatCell",
+          "newName": "upgradeAllBasicUnits"
+        },
+        {
+          "oldName": "randomComboCat",
+          "newName": "spawnSpecialUnit"
+        },
+        {
+          "oldName": "endTweenArawd",
+          "newName": "completeAnimationAndReward"
+        },
+        {
+          "oldName": "lvUpCatCell",
+          "newName": "upgradeCatUnit"
+        },
+        {
+          "oldName": "btnLvUp",
+          "newName": "handleLevelUpAction"
+        },
+        {
+          "oldName": "LvUpDo",
+          "newName": "executeLevelUp"
+        },
+        {
+          "oldName": "LvUpRun",
+          "newName": "startLevelUpSequence"
+        },
+        {
+          "oldName": "harmCatCell",
+          "newName": "damageCatUnit"
+        },
+        {
+          "oldName": "btnHarm",
+          "newName": "handleDamageAction"
+        },
+        {
+          "oldName": "harmDO",
+          "newName": "executeDamage"
+        },
+        {
+          "oldName": "harmRun",
+          "newName": "startDamageSequence"
+        },
+        {
+          "oldName": "btnFlash",
+          "newName": "handleFlashTool"
+        },
+        {
+          "oldName": "offGuide",
+          "newName": "disableTutorial"
+        },
+        {
+          "oldName": "PosX",
+          "newName": "xCoord"
+        },
+        {
+          "oldName": "PosY",
+          "newName": "yCoord"
+        },
+        {
+          "oldName": "flash",
+          "newName": "updateData"
+        },
+        {
+          "oldName": "copy",
+          "newName": "cloneData"
+        },
+        {
+          "oldName": "compare",
+          "newName": "isEqualTo"
+        },
+        {
+          "oldName": "clacIsNeer",
+          "newName": "isAdjacent"
+        }
+      ]
+    },
+    {
+      "oldFileName": "CatWE",
+      "filePath": "assets/total/scripts/CatWE.ts",
+      "newFileName": "PlatformComponent",
+      "renames": [
+        {
+          "oldName": "weCombonent",
+          "newName": "platformWidget"
+        },
+        {
+          "oldName": "inSet",
+          "newName": "isConfigured"
+        },
+        {
+          "oldName": "clickB",
+          "newName": "handleInteraction"
+        }
+      ]
+    },
+    {
+      "oldFileName": "LoadingVIew",
+      "filePath": "assets/total/scripts/LoadingVIew.ts",
+      "newFileName": "LoadingScreen",
+      "renames": [
+        {
+          "oldName": "process",
+          "newName": "progressBar"
+        },
+        {
+          "oldName": "gamePrefab",
+          "newName": "mainScenePrefab"
+        },
+        {
+          "oldName": "loadPrefab",
+          "newName": "loadingUiPrefab"
+        },
+        {
+          "oldName": "toastPrefab",
+          "newName": "notificationPrefab"
+        },
+        {
+          "oldName": "vtPrefab",
+          "newName": "videoPromptPrefab"
+        },
+        {
+          "oldName": "versionLabel",
+          "newName": "buildNumberLabel"
+        },
+        {
+          "oldName": "icon",
+          "newName": "appIconSprite"
+        },
+        {
+          "oldName": "msg",
+          "newName": "statusLabel"
+        },
+        {
+          "oldName": "gameNode",
+          "newName": "gameRootNode"
+        },
+        {
+          "oldName": "popView",
+          "newName": "modalViewContainer"
+        },
+        {
+          "oldName": "backgroundMusic",
+          "newName": "musicAudioClip"
+        },
+        {
+          "oldName": "btn",
+          "newName": "buttonSfx"
+        },
+        {
+          "oldName": "goldShake",
+          "newName": "coinSfx"
+        },
+        {
+          "oldName": "errorBtn",
+          "newName": "errorSfx"
+        },
+        {
+          "oldName": "upEff",
+          "newName": "levelUpSfx"
+        },
+        {
+          "oldName": "harm",
+          "newName": "damageSfx"
+        },
+        {
+          "oldName": "ding",
+          "newName": "notificationSfx"
+        },
+        {
+          "oldName": "unlockView",
+          "newName": "unlockSfx"
+        },
+        {
+          "oldName": "flashTool",
+          "newName": "toolUseSfx"
+        },
+        {
+          "oldName": "redGo",
+          "newName": "specialActionSfx"
+        },
+        {
+          "oldName": "meow",
+          "newName": "catSound"
+        },
+        {
+          "oldName": "g1",
+          "newName": "goldSfx1"
+        },
+        {
+          "oldName": "g2",
+          "newName": "goldSfx2"
+        },
+        {
+          "oldName": "b1",
+          "newName": "buttonSfx1"
+        },
+        {
+          "oldName": "b2",
+          "newName": "buttonSfx2"
+        },
+        {
+          "oldName": "b3",
+          "newName": "buttonSfx3"
+        },
+        {
+          "oldName": "b4",
+          "newName": "buttonSfx4"
+        },
+        {
+          "oldName": "b5",
+          "newName": "buttonSfx5"
+        },
+        {
+          "oldName": "b6",
+          "newName": "buttonSfx6"
+        },
+        {
+          "oldName": "b7",
+          "newName": "buttonSfx7"
+        },
+        {
+          "oldName": "b8",
+          "newName": "buttonSfx8"
+        },
+        {
+          "oldName": "b9",
+          "newName": "buttonSfx9"
+        },
+        {
+          "oldName": "GAME_NAME",
+          "newName": "APP_TITLE"
+        },
+        {
+          "oldName": "PACKAGE_NAME",
+          "newName": "BUNDLE_IDENTIFIER"
+        },
+        {
+          "oldName": "GAME_CODE",
+          "newName": "APP_CODE"
+        },
+        {
+          "oldName": "GAME_PLATFORM",
+          "newName": "TARGET_PLATFORM"
+        },
+        {
+          "oldName": "GAME_VERSION",
+          "newName": "APP_VERSION"
+        },
+        {
+          "oldName": "PRIVACY_POLICY_LINK",
+          "newName": "PRIVACY_URL"
+        },
+        {
+          "oldName": "INVITATION_CODE",
+          "newName": "REFERRAL_CODE"
+        },
+        {
+          "oldName": "base",
+          "newName": "loadingViewRoot"
+        },
+        {
+          "oldName": "p1",
+          "newName": "progressStart"
+        },
+        {
+          "oldName": "p2",
+          "newName": "progressEnd"
+        },
+        {
+          "oldName": "flashMsgProcess",
+          "newName": "updateProgressDisplay"
+        },
+        {
+          "oldName": "stopAllP",
+          "newName": "haltLoading"
+        },
+        {
+          "oldName": "go",
+          "newName": "launchGame"
+        },
+        {
+          "oldName": "into",
+          "newName": "transitionToGame"
+        },
+        {
+          "oldName": "clickPrivacy",
+          "newName": "onPrivacyPolicyTap"
+        },
+        {
+          "oldName": "showVideoTip",
+          "newName": "displayVideoPrompt"
+        },
+        {
+          "oldName": "showToast",
+          "newName": "displayNotification"
+        },
+        {
+          "oldName": "loadNode",
+          "newName": "loadingSpinnerNode"
+        },
+        {
+          "oldName": "showLoad",
+          "newName": "displayLoadingSpinner"
+        },
+        {
+          "oldName": "hideLoad",
+          "newName": "concealLoadingSpinner"
+        },
+        {
+          "oldName": "btnEff",
+          "newName": "playButtonSfx"
+        },
+        {
+          "oldName": "btnClick",
+          "newName": "onButtonPress"
+        },
+        {
+          "oldName": "musicRun",
+          "newName": "playBackgroundMusic"
+        },
+        {
+          "oldName": "effKey",
+          "newName": "sfxKey"
+        },
+        {
+          "oldName": "eff",
+          "newName": "playSfx"
+        },
+        {
+          "oldName": "gData",
+          "newName": "gameDataStore"
+        },
+        {
+          "oldName": "safeData",
+          "newName": "saveGameData"
+        },
+        {
+          "oldName": "sycnData",
+          "newName": "syncGameData"
+        }
+      ]
+    },
+    {
+      "oldFileName": "PropView",
+      "filePath": "assets/total/scripts/PropView.ts",
+      "newFileName": "ToolView",
+      "renames": [
+        {
+          "oldName": "root",
+          "newName": "panelRoot"
+        },
+        {
+          "oldName": "lock",
+          "newName": "overlayLock"
+        },
+        {
+          "oldName": "count",
+          "newName": "quantityLabel"
+        },
+        {
+          "oldName": "msg",
+          "newName": "descriptionLabel"
+        },
+        {
+          "oldName": "upT",
+          "newName": "upgradeTexture"
+        },
+        {
+          "oldName": "flashT",
+          "newName": "specialTexture"
+        },
+        {
+          "oldName": "harmT",
+          "newName": "damageTexture"
+        },
+        {
+          "oldName": "type",
+          "newName": "toolType"
+        },
+        {
+          "oldName": "costGold",
+          "newName": "priceInGold"
+        },
+        {
+          "oldName": "doClose",
+          "newName": "onCloseCallback"
+        },
+        {
+          "oldName": "show",
+          "newName": "displayPanel"
+        },
+        {
+          "oldName": "hide",
+          "newName": "concealPanel"
+        },
+        {
+          "oldName": "closeClick",
+          "newName": "onCloseButton"
+        },
+        {
+          "oldName": "flash",
+          "newName": "refreshDisplay"
+        },
+        {
+          "oldName": "clickGold",
+          "newName": "onPurchaseWithGold"
+        },
+        {
+          "oldName": "clickVideo",
+          "newName": "onWatchAdForReward"
+        }
+      ]
+    },
+    {
+      "oldFileName": "RewardView",
+      "filePath": "assets/total/scripts/RewardView.ts",
+      "newFileName": "PrizeView",
+      "renames": [
+        {
+          "oldName": "root",
+          "newName": "rewardPanelRoot"
+        },
+        {
+          "oldName": "lock",
+          "newName": "interactionLock"
+        },
+        {
+          "oldName": "sp1",
+          "newName": "rewardSprite1"
+        },
+        {
+          "oldName": "sp2",
+          "newName": "rewardSprite2"
+        },
+        {
+          "oldName": "countLab",
+          "newName": "amountLabel"
+        },
+        {
+          "oldName": "count",
+          "newName": "rewardAmount"
+        },
+        {
+          "oldName": "doClose",
+          "newName": "onDismiss"
+        },
+        {
+          "oldName": "show",
+          "newName": "present"
+        },
+        {
+          "oldName": "hide",
+          "newName": "dismiss"
+        },
+        {
+          "oldName": "closeClick",
+          "newName": "handleCloseButton"
+        },
+        {
+          "oldName": "clickReward",
+          "newName": "handleClaimButton"
+        }
+      ]
+    },
+    {
+      "oldFileName": "SetView",
+      "filePath": "assets/total/scripts/SetView.ts",
+      "newFileName": "SettingsView",
+      "renames": [
+        {
+          "oldName": "root",
+          "newName": "settingsRoot"
+        },
+        {
+          "oldName": "lock",
+          "newName": "uiLock"
+        },
+        {
+          "oldName": "sound",
+          "newName": "sfxToggleSprite"
+        },
+        {
+          "oldName": "music",
+          "newName": "musicToggleSprite"
+        },
+        {
+          "oldName": "shake",
+          "newName": "vibrationToggleSprite"
+        },
+        {
+          "oldName": "more",
+          "newName": "moreGamesButton"
+        },
+        {
+          "oldName": "v",
+          "newName": "versionLabelDisplay"
+        },
+        {
+          "oldName": "i",
+          "newName": "inviteCodeLabel"
+        },
+        {
+          "oldName": "prefab",
+          "newName": "viewPrefab"
+        },
+        {
+          "oldName": "doClose",
+          "newName": "onPanelClose"
+        },
+        {
+          "oldName": "show",
+          "newName": "display"
+        },
+        {
+          "oldName": "hide",
+          "newName": "conceal"
+        },
+        {
+          "oldName": "closeClick",
+          "newName": "onDismissButton"
+        },
+        {
+          "oldName": "flash",
+          "newName": "refreshToggles"
+        },
+        {
+          "oldName": "clickchang",
+          "newName": "handleToggleChange"
+        },
+        {
+          "oldName": "clickPrivacy",
+          "newName": "onPrivacyButton"
+        },
+        {
+          "oldName": "clickStart",
+          "newName": "onRestartButton"
+        },
+        {
+          "oldName": "clickweb",
+          "newName": "onWebsiteButton"
+        }
+      ]
+    },
+    {
+      "oldFileName": "SkinView",
+      "filePath": "assets/total/scripts/SkinView.ts",
+      "newFileName": "CosmeticsView",
+      "renames": [
+        {
+          "oldName": "root",
+          "newName": "skinPanelRoot"
+        },
+        {
+          "oldName": "lock",
+          "newName": "inputCover"
+        },
+        {
+          "oldName": "scroll",
+          "newName": "skinScrollView"
+        },
+        {
+          "oldName": "cost",
+          "newName": "priceLabel"
+        },
+        {
+          "oldName": "doClose",
+          "newName": "onExit"
+        },
+        {
+          "oldName": "show",
+          "newName": "presentPanel"
+        },
+        {
+          "oldName": "hide",
+          "newName": "dismissPanel"
+        },
+        {
+          "oldName": "closeClick",
+          "newName": "handleExitButton"
+        },
+        {
+          "oldName": "flash",
+          "newName": "refreshSkinList"
+        },
+        {
+          "oldName": "clickEvent",
+          "newName": "onSkinSelected"
+        },
+        {
+          "oldName": "getNodeMsg",
+          "newName": "getSkinDataFromNode"
+        }
+      ]
+    },
+    {
+      "oldFileName": "TopGold",
+      "filePath": "assets/total/scripts/TopGold.ts",
+      "newFileName": "HeaderCurrency",
+      "renames": [
+        {
+          "oldName": "base",
+          "newName": "goldDisplayRoot"
+        },
+        {
+          "oldName": "goldText",
+          "newName": "currencyAmountLabel"
+        },
+        {
+          "oldName": "plusText",
+          "newName": "addCurrencyLabel"
+        },
+        {
+          "oldName": "icon",
+          "newName": "currencyIcon"
+        },
+        {
+          "oldName": "spineSke",
+          "newName": "iconAnimation"
+        },
+        {
+          "oldName": "showCount",
+          "newName": "displayedAmount"
+        },
+        {
+          "oldName": "nowCount",
+          "newName": "currentAmount"
+        },
+        {
+          "oldName": "event",
+          "newName": "onClickHandler"
+        },
+        {
+          "oldName": "flowerSpin",
+          "newName": "playFlourishAnimation"
+        },
+        {
+          "oldName": "addEventDO",
+          "newName": "registerClickHandler"
+        },
+        {
+          "oldName": "flashTextLabel",
+          "newName": "updateAmountLabel"
+        }
+      ]
+    },
+    {
+      "oldFileName": "TopSet",
+      "filePath": "assets/total/scripts/TopSet.ts",
+      "newFileName": "HeaderSettings",
+      "renames": []
+    },
+    {
+      "oldFileName": "TweenEff",
+      "filePath": "assets/total/scripts/TweenEff.ts",
+      "newFileName": "AnimationEffect",
+      "renames": [
+        {
+          "oldName": "root",
+          "newName": "animatedNode"
+        },
+        {
+          "oldName": "cbF",
+          "newName": "onCompleteCallback"
+        },
+        {
+          "oldName": "firstDo",
+          "newName": "runPrimaryAction"
+        },
+        {
+          "oldName": "secondDO",
+          "newName": "runSecondaryAction"
+        },
+        {
+          "oldName": "tweenDoRUn",
+          "newName": "executeAnimation"
+        }
+      ]
+    },
+    {
+      "oldFileName": "unlockView",
+      "filePath": "assets/total/scripts/unlockView.ts",
+      "newFileName": "UnlockPopup",
+      "renames": [
+        {
+          "oldName": "bg",
+          "newName": "backdropNode"
+        },
+        {
+          "oldName": "texture",
+          "newName": "itemSprite"
+        },
+        {
+          "oldName": "lvLabel",
+          "newName": "tierLabel"
+        },
+        {
+          "oldName": "LvBg",
+          "newName": "tierLabelBackdrop"
+        },
+        {
+          "oldName": "flower",
+          "newName": "flourishEffect"
+        },
+        {
+          "oldName": "first",
+          "newName": "isInitialDisplay"
+        },
+        {
+          "oldName": "tweenGO",
+          "newName": "playIntroAnimation"
+        }
+      ]
+    },
+    {
+      "oldFileName": "VTView",
+      "filePath": "assets/total/scripts/VTView.ts",
+      "newFileName": "VideoTipView",
+      "renames": [
+        {
+          "oldName": "root",
+          "newName": "promptRoot"
+        },
+        {
+          "oldName": "lock",
+          "newName": "promptLock"
+        },
+        {
+          "oldName": "costGold",
+          "newName": "priceDisplayLabel"
+        },
+        {
+          "oldName": "doClose",
+          "newName": "onPromptClose"
+        },
+        {
+          "oldName": "show",
+          "newName": "displayPrompt"
+        },
+        {
+          "oldName": "hide",
+          "newName": "concealPrompt"
+        },
+        {
+          "oldName": "closeClick",
+          "newName": "onCancelButton"
+        },
+        {
+          "oldName": "clickOk",
+          "newName": "onConfirmButton"
+        },
+        {
+          "oldName": "ACB",
+          "newName": "confirmCallback"
+        },
+        {
+          "oldName": "BCB",
+          "newName": "cancelCallback"
+        },
+        {
+          "oldName": "setInitCB",
+          "newName": "initializeCallbacks"
+        }
+      ]
+    }
+  ]
+}

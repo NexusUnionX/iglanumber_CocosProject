@@ -1,0 +1,20 @@
+
+fengs.png
+size: 307,166
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fengshan1
+  rotate: true
+  xy: 2, 2
+  size: 162, 169
+  orig: 162, 169
+  offset: 0, 0
+  index: -1
+fengshan2
+  rotate: false
+  xy: 173, 35
+  size: 132, 129
+  orig: 132, 129
+  offset: 0, 0
+  index: -1

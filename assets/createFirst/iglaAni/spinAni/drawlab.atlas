@@ -1,0 +1,55 @@
+
+drawlab.png
+size: 1258,698
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lab1
+  rotate: true
+  xy: 997, 349
+  size: 347, 259
+  orig: 347, 259
+  offset: 0, 0
+  index: -1
+lab2
+  rotate: false
+  xy: 602, 9
+  size: 415, 255
+  orig: 415, 255
+  offset: 0, 0
+  index: -1
+stone1
+  rotate: false
+  xy: 287, 27
+  size: 313, 320
+  orig: 313, 320
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: true
+  xy: 2, 2
+  size: 345, 283
+  orig: 345, 283
+  offset: 0, 0
+  index: -1
+xuedui1
+  rotate: true
+  xy: 1019, 32
+  size: 315, 157
+  orig: 315, 157
+  offset: 0, 0
+  index: -1
+xuedui2
+  rotate: false
+  xy: 602, 266
+  size: 377, 143
+  orig: 377, 143
+  offset: 0, 0
+  index: -1
+xuehua
+  rotate: false
+  xy: 2, 411
+  size: 993, 285
+  orig: 993, 285
+  offset: 0, 0
+  index: -1
