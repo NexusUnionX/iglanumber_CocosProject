@@ -499,7 +499,7 @@
             if (fdata.gameData.isNewUser == false) {
                 revealUnlockPopup.call();
             } else {
-                getStoneNormal.open(null, () => {
+                getStoneNormal.open(3, () => {
                 });
             }
         }

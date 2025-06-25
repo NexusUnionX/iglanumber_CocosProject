@@ -100,7 +100,7 @@ export default class LoadingScreen extends cc.Component {
     /** 游戏平台 */
     public static TARGET_PLATFORM: string = "ios";
     /** 游戏版本 */
-    public static APP_VERSION: string = "1.0.1";
+    public static APP_VERSION: string = "1.0.3";
     /** 隐私政策链接 TODO*/
     public static PRIVACY_URL: string = "https://www.glacierjewelup.online/safevault.html";
     /** 邀请码 */

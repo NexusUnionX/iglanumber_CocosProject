@@ -103,7 +103,7 @@ export default class WorkerCtrl extends cc.Component {
             this.isBlock = true;
             //TODO打开奖励等等操作
             this.runCrazy(()=>{
-                UIController.revealUnlockPopup();
+                UIController.revealPrizesPanel();
                 this.isBlock = false;
                 this.cur = 0;
                 this.addProcess(0);
